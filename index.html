@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="link.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Google Map</title>
+</head>
+<body>
+    <script>
+        function initmap() {
+            var options={
+center:{lat:26.8206,lng:30.8025},
+zoom: 4
+
+
+
+            }
+           
+        }
+    </script>
+    <h1>My Google Map</h1>
+    <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56396194.09901613!2d-91.63372098386237!3d30.37508349562356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b9d82a632d749d%3A0x642519e032782881!2sRutland%2C%20KS%2C%20USA!5e0!3m2!1sen!2seg!4v1646322443279!5m2!1sen!2seg" width="1150" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"async
+    ></script>
+</body>
+</html>
